@@ -1,7 +1,7 @@
-name: Testmain
+name: Testbranch
 on: pull_request
 jobs:
-  Explore-GitHub-Actions:
+  branchjob:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -14,4 +14,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+          echo "HAHAHAHAHA"
+          python --version
+          python printname.py sushiactions
       - run: echo "🍏 This job's status is ${{ job.status }}."
