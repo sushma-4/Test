@@ -1,4 +1,4 @@
-name: Test1
+name: Testmain
 on: pull_request
 jobs:
   Explore-GitHub-Actions:
