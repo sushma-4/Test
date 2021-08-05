@@ -16,4 +16,5 @@ jobs:
           ls ${{ github.workspace }}
           echo "HAHAHAHAHA"
           python --version
+          python printname.py sushiactions
       - run: echo "🍏 This job's status is ${{ job.status }}."
