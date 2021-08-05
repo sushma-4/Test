@@ -1,1 +1,3 @@
-print('Hi, My name is Sushma from main')
+import sys
+
+print('Hi, my name is '+ sys.argv[1])
